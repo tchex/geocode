@@ -19,5 +19,5 @@ class Coordinates {
   );
 
   @override
-  String toString() => "GEOCODE: longitude=$longitude, latitude=$latitude";
+  String toString() => "GEOCODE: longitude=$longitude, latitude=$latitude, matches=$matches";
 }
