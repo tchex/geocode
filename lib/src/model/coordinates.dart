@@ -10,7 +10,7 @@ class Coordinates {
   /// Number of Matches found.
   int? matches;
 
-  Coordinates({this.latitude, this.longitude});
+  Coordinates({this.latitude, this.longitude, this.matches});
 
   factory Coordinates.fromJson(Map<String, dynamic> coordinates) => Coordinates(
       latitude: double.tryParse(tryParse(coordinates['latt']) ?? ''),
